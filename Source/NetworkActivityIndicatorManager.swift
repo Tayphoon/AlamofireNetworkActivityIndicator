@@ -192,7 +192,7 @@ public class NetworkActivityIndicatorManager {
         notificationCenter.addObserver(
             self,
             selector: #selector(NetworkActivityIndicatorManager.networkRequestDidComplete),
-            name: Request.didComplete,
+            name: Request.didFinish,
             object: nil
         )
     }
